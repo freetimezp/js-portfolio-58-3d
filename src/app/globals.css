@@ -9,6 +9,9 @@
     --muted: 115 115 115;
     --accent: 254 254 91; 
   }
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @layer utilities {
