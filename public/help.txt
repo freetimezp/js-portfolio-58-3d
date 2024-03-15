@@ -1,1 +1,19 @@
 https://www.youtube.com/watch?v=T5t46vuW8fo
+
+
+
+github stats
+https://github-readme-stats.vercel.app/api?username=freetimezp
+https://github-readme-streak-stats.herokuapp.com
+
+github stats langs
+https://github-readme-stats.vercel.app/api/top-langs?username=freetimezp
+
+skill icons
+https://skillicons.dev/icons?i=js,html,css,appwrite,bootstrap,codepen,express,
+figma,firebase,github,gmail,graphql,gulp,ai,instagram,jquery,linkedin,materialui,
+mongodb,mysql,netlify,nextjs,nodejs,npm,php,phpstorm,powershell,prisma,react,redux,
+sass,stackoverflow,sublime,svg,tailwind,threejs,twitter,ts,vercel,visualstudio,vite,
+vscode,webpack,windows,wordpress,yarn
+
+

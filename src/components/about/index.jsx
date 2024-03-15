@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 import ItemLayout from './ItemLayout';
@@ -35,6 +36,54 @@ const AboutDetails = () => {
                         <sub className="font-semibold text-base">years of experience</sub>
                     </p>
                 </ItemLayout>
+
+                <ItemLayout className={"col-span-4 !p-0"}>
+                    <img
+                        src="https://github-readme-stats.vercel.app/api/top-langs?username=freetimezp&
+                        &theme=transparent&hide_border=true&title_color=FEFE5B&text_bold=false"
+                        alt="github"
+                        loading='lazy'
+                        className='w-full h-auto'
+                    />
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-8 !p-0"}>
+                    <img
+                        src="https://github-readme-stats.vercel.app/api?username=freetimezp&
+                        &theme=transparent&hide_border=true&title_color=FEFE5B&text_bold=false"
+                        alt="github"
+                        loading='lazy'
+                        className='w-full h-auto'
+                    />
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full !p-4"}>
+                    <img
+                        src="https://skillicons.dev/icons?i=js,html,css,appwrite,bootstrap,codepen,express,figma,firebase,github,gmail,graphql,gulp,ai,instagram,jquery,linkedin,materialui,mongodb,mysql,netlify,nextjs,nodejs,npm,php,phpstorm,powershell,prisma,react,redux,sass,stackoverflow,sublime,svg,tailwind,threejs,twitter,ts,vercel,visualstudio,vite,vscode,webpack,windows,wordpress,yarn"
+                        alt="github"
+                        loading='lazy'
+                        className='w-full h-auto'
+                    />
+                </ItemLayout>
+
+
+                <ItemLayout className={"col-span-6 !p-0"}>
+                    <img src="https://github-readme-streak-stats.herokuapp.com?user=Freetimezp&theme=dark&hide_border=true&ring=E3EB30&currStreakNum=E3EB30&background=EB545400"
+                        alt="GitHub Streak" loading='lazy'
+                        className='w-full h-auto'
+                    />
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-6 !p-0"}>
+                    <img
+                        src="https://github-readme-stats.vercel.app/api/pin/?username=freetimezp&repo=js-portfolio-58-3d&
+                        &theme=transparent&hide_border=true&title_color=FEFE5B&text_bold=false"
+                        alt="github"
+                        loading='lazy'
+                        className='w-full h-auto'
+                    />
+                </ItemLayout>
+
 
             </div>
         </section>
