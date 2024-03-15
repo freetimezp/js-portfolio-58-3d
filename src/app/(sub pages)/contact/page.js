@@ -10,14 +10,17 @@ export default function Contact() {
         <>
             <Image
                 src={bgImg} alt="background"
+                priority
+                sizes="100vw"
                 className="w-full h-full fixed top-0 left-0 object-cover object-center 
                     -z-50 opacity-25"
             />
 
             {/* contact page */}
-            <article className="relative w-full flex flex-col items-center justify-center
-                space-y-8">
-                <div className="flex flex-col items-center justify-center space-y-6 w-3/4">
+            <article className="relative w-full flex flex-col items-center justify-center 
+                py-8 sm:py-0 space-y-8">
+                <div className="flex flex-col items-center justify-center space-y-6 w-full 
+                    sm:w-3/4">
                     <h1 className="text-accent font-semibold text-center text-4xl capitalize">
                         Summon the Wizard
                     </h1>
